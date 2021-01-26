@@ -1,0 +1,159 @@
+id: table1
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - sortMappedValue:
+        ordered: []
+    - normalizedData: null
+    - columnWidths:
+        - object:
+            id: contentType
+            value: 188
+        - object:
+            id: id
+            value: 233.5
+    - columnWidthsMobile: []
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - size: ''
+          - selfLink: ''
+          - bucket: ''
+          - name: ''
+          - md5Hash: ''
+          - crc32c: ''
+          - timeStorageClassUpdated: ''
+          - contentType: ''
+          - kind: ''
+          - etag: ''
+          - generation: ''
+          - updated: ''
+          - id: ''
+          - timeCreated: ''
+          - cacheControl: ''
+          - metageneration: ''
+          - storageClass: ''
+          - mediaLink: ''
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - showFilterButton: true
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - size: true
+          - selfLink: false
+          - bucket: false
+          - name: true
+          - Sales: true
+          - md5Hash: false
+          - crc32c: false
+          - timeStorageClassUpdated: false
+          - contentType: true
+          - kind: false
+          - etag: false
+          - generation: false
+          - Title: true
+          - updated: false
+          - id: true
+          - timeCreated: true
+          - cacheControl: false
+          - Description: true
+          - metageneration: false
+          - storageClass: false
+          - mediaLink: false
+    - selectedPageIndex: '0'
+    - actionButtonColumnName: Actions
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ query1.data }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - sortedDesc: false
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - pageSize: 6
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: ''
+    - defaultSortDescending: false
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        ordered:
+          - array: []
+    - newRow: null
+    - columnEditable:
+        ordered: []
+    - filters:
+        ordered:
+          - array: []
+    - displayedDataIndices: null
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - Title
+        - Description
+        - Sales
+        - kind
+        - id
+        - selfLink
+        - mediaLink
+        - name
+        - bucket
+        - generation
+        - metageneration
+        - contentType
+        - storageClass
+        - size
+        - md5Hash
+        - crc32c
+        - etag
+        - timeCreated
+        - updated
+        - timeStorageClassUpdated
+        - cacheControl
+    - sort: null
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - nextAfterCursor: ''
+    - useCompactMode: false
+position2:
+  position2:
+    height: 8
+    width: 12
+createdAt: 2020-02-14T23:27:39.585Z
+updatedAt: 2020-02-18T02:27:06.582Z

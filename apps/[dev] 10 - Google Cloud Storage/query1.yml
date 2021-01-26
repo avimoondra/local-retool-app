@@ -1,0 +1,63 @@
+id: query1
+type: datasource
+subtype: GCSQuery
+resourceName: '[dev] Google Cloud Storage'
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - queryDisabledMessage: ''
+    - fileKey: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: 0
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: true
+    - delimiter: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: 0
+    - sourceFileKey: ''
+    - uploadFileName: export.csv
+    - privateParams: []
+    - triggersOnSuccess: []
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - uploadData: ''
+    - uploadFileAcl: ''
+    - importedQueryInputs:
+        ordered: []
+    - showSuccessConfetti: false
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - sourceBucketName: ''
+    - actionType: list
+    - triggersOnFailure: []
+    - copySource: ''
+    - confirmationMessage: null
+    - isFetching: false
+    - prefix: ''
+    - rawData: null
+    - signedOperationOptions: ''
+    - queryTriggerDelay: '0'
+    - watchedParams: []
+    - bucketName: ''
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - signedOperationName: ''
+    - enableTransformer: false
+    - uploadFileType: csv
+    - runWhenPageLoads: false
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - queryTimeout: '10000'
+    - requireConfirmation: false
+    - enableCaching: false
+    - queryThrottleTime: '750'
+createdAt: 2020-02-14T23:26:24.715Z
+updatedAt: 2020-02-14T23:27:36.566Z
