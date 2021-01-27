@@ -1,0 +1,42 @@
+id: text5
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: true
+    - tooltipText: ''
+    - value: >+
+        <b>Social media</b>
+
+        <% for (var i = 0; i <
+        getIntercomData.data.social_profiles.social_profiles.length; i++) { %>
+
+        <div style="padding-top: 10px;">
+
+        <a href="{{
+        getIntercomData.data.social_profiles.social_profiles[i].url}}"
+        target="_blank"> {{
+        getIntercomData.data.social_profiles.social_profiles[i].name}}</a>
+
+        </div>
+
+        <% } %>
+
+    - renderAsHtml: true
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container3
+    row: 1
+    col: 8
+    height: 5
+    width: 4
+createdAt: '2019-02-08T13:22:13.056Z'
+updatedAt: '2019-09-24T16:52:37.483Z'

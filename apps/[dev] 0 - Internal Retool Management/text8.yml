@@ -1,0 +1,25 @@
+id: text8
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: "<b>Linkedin</b>\n\n<p>\n<a target=\"_blank\" href=\"{{getSalesforceData.data['0'].LinkedIn__c}}\"> {{getSalesforceData.data['0'].LinkedIn__c || '--missing--'}} </a>\n</p>\n<br />\n<b> Company </b> \n<p>\n{{ getSalesforceData.data['0'].Company }}\n</p>\n\n<br/>\n\n<b> Number of Employees </b>\n<p> {{ getSalesforceData.data['0'].NumberOfEmployees }}\n  \n</p>\n<br />\n<b> Annual Revenue </b>\n<p> {{ getSalesforceData.data['0'].AnnualRevenue }}\n  \n</p>\n\n<br />\n<b> Commercial Use </b> <span style=\"padding-left: 10px\">{{ getOrganization.data.isCompanyAccount ? '✅' : '\U0001F6AB'}}</span>\n  "
+    - renderAsHtml: true
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container3
+    row: 7
+    height: 6
+    width: 8
+createdAt: '2019-02-09T00:02:12.369Z'
+updatedAt: '2019-09-24T16:52:37.485Z'

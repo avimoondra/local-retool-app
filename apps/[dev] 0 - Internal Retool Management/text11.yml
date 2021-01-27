@@ -1,0 +1,24 @@
+id: text11
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: '##### Quick Actions'
+    - renderAsHtml: true
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container4
+    height: 1
+    width: 12
+createdAt: '2019-02-09T01:09:17.882Z'
+updatedAt: '2019-09-24T16:52:37.485Z'
