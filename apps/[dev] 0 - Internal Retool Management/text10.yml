@@ -1,0 +1,25 @@
+id: text10
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: '##### Apps'
+    - renderAsHtml: true
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container2
+    row: 14
+    height: 1
+    width: 3
+createdAt: '2019-02-09T01:05:58.264Z'
+updatedAt: '2019-09-24T16:52:37.485Z'
