@@ -12,10 +12,10 @@ appTemplate:
         - value: '{{ urlparams.hash.search}}'
   customDocumentTitle: ''
   isGlobalWidget: false
-  isFetching: false
+  isFetching: true
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
-  version: 2.64.82
+  version: 2.64.83
   responsiveLayoutDisabled: false
   createdAt: null
   loadingIndicatorsDisabled: false
