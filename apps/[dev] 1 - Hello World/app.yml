@@ -1,0 +1,19 @@
+version: 43.0.9
+pageUuid: b33e60c0-116d-11ea-8c85-a368dd700d7c
+appTemplate:
+  urlFragmentDefinitions: []
+  appThemeId: null
+  preloadedAppJavaScript: null
+  pageLoadValueOverrides: []
+  customDocumentTitle: ''
+  isGlobalWidget: false
+  isFetching: false
+  instrumentationEnabled: false
+  customDocumentTitleEnabled: false
+  preloadedAppJSLinks:
+    ordered:
+      - array: []
+  version: 2.66.18
+  responsiveLayoutDisabled: false
+  createdAt: null
+  loadingIndicatorsDisabled: false
