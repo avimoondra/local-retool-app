@@ -1,0 +1,7 @@
+id: output1
+type: globalwidgetoutput
+subtype: GlobalWidgetOutput
+template:
+  ordered:
+    - value: '{{ query1.data }}'
+createdAt: 2021-04-12T20:34:41.063Z
