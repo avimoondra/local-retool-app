@@ -60,7 +60,7 @@ template:
         20)
 
         return data
-    - queryTimeout: '10000'
+    - queryTimeout: '10001'
     - requireConfirmation: false
     - type: GET
     - queryFailureConditions: ''
@@ -68,4 +68,4 @@ template:
     - bodyType: json
     - queryThrottleTime: '750'
     - notificationDuration: ''
-createdAt: 2021-04-12T20:34:45.711Z
+createdAt: 2021-04-12T20:34:07.444Z
