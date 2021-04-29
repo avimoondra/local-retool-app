@@ -1,5 +1,5 @@
 version: 43.0.9
-pageUuid: 7ff8e8ec-9bce-11eb-8e2f-5b213ff64690
+pageUuid: 6cfef588-9bce-11eb-b4a7-4f5b0364fced
 appTemplate:
   urlFragmentDefinitions: []
   appStyles: ''
@@ -7,7 +7,7 @@ appTemplate:
   preloadedAppJavaScript: null
   pageLoadValueOverrides: []
   customDocumentTitle: ''
-  isGlobalWidget: true
+  isGlobalWidget: false
   isFetching: false
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
