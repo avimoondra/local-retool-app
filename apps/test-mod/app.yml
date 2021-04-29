@@ -16,4 +16,6 @@ appTemplate:
   version: 2.67.8
   responsiveLayoutDisabled: false
   createdAt: null
+  customShortcuts:
+    array: []
   loadingIndicatorsDisabled: false
