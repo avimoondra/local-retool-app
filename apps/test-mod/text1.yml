@@ -9,7 +9,7 @@ template:
     - imageWidth: fit
     - verticalAlign: center
     - tooltipText: ''
-    - value: "\U0001F44B **Hello {{ current_user.firstName || 'friend' }}!**"
+    - value: 👋 **Hello {{ current_user.firstName || 'friend' }}!**
     - disableMarkdown: false
     - overflowType: scroll
 style:
