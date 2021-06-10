@@ -1,8 +1,7 @@
 version: 43.0.9
 pageUuid: 96b16bda-b826-11eb-af91-7f17441d56b4
 appTemplate:
-  tests:
-    array: []
+  tests: null
   urlFragmentDefinitions: []
   appStyles: ''
   appThemeId: null
@@ -17,7 +16,7 @@ appTemplate:
   customDocumentTitleEnabled: false
   preloadedAppJSLinks:
     array: []
-  version: 2.70.9
+  version: 2.70.12
   responsiveLayoutDisabled: false
   createdAt: null
   customShortcuts:
