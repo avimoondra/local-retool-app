@@ -1,4 +1,4 @@
-id: button1
+id: button2
 type: widget
 subtype: ButtonWidget
 template:
@@ -22,7 +22,8 @@ style:
   ordered: []
 position2:
   position2:
-    col: 3
+    row: 0.2
+    col: 6
     height: 1
     width: 2
-createdAt: 2021-06-18T15:40:14.495Z
+createdAt: 2021-06-18T15:42:15.367Z
