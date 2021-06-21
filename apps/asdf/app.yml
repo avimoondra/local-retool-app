@@ -1,5 +1,5 @@
 version: 43.0.9
-pageUuid: b54d5e98-b8e2-11eb-9b3c-4fa2f42f97d6
+pageUuid: f5e562ee-d2cc-11eb-b515-7baca4c60a5f
 appTemplate:
   tests:
     array: []
@@ -11,11 +11,13 @@ appTemplate:
   customDocumentTitle: ''
   isGlobalWidget: false
   isFetching: false
+  testEntities:
+    array: []
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
   preloadedAppJSLinks:
     array: []
-  version: 2.69.0
+  version: 2.71.7
   responsiveLayoutDisabled: false
   createdAt: null
   customShortcuts:
