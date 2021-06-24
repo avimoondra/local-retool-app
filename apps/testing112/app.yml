@@ -17,7 +17,7 @@ appTemplate:
   customDocumentTitleEnabled: false
   preloadedAppJSLinks:
     array: []
-  version: 2.71.10
+  version: 2.71.11
   responsiveLayoutDisabled: false
   createdAt: null
   customShortcuts:
