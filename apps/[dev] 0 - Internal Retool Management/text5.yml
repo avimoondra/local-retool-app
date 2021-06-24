@@ -25,6 +25,8 @@ template:
 
         <% } %>
 
+    - style:
+        ordered: []
     - renderAsHtml: true
     - backgroundColor: '#0000'
     - textColor: '#312929'
@@ -39,4 +41,3 @@ position2:
     height: 5
     width: 4
 createdAt: '2019-02-08T13:22:13.056Z'
-updatedAt: '2019-09-24T16:52:37.483Z'

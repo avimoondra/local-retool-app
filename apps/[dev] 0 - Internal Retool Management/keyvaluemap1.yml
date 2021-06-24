@@ -42,6 +42,7 @@ template:
           - error: true
           - verified: true
           - contactNumber: true
+          - data: true
           - onboardingChecklist: true
           - name: true
           - javaScriptLinks: true
@@ -71,6 +72,9 @@ template:
           - billingCardBrand: true
           - email: true
           - gitUrl: true
+          - statusCode: true
+    - style:
+        ordered: []
     - prevRowFormats:
         ordered: []
     - rowMappers:
@@ -132,6 +136,8 @@ template:
         - protectedGitCommit
         - cacheQueriesPerUser
         - protectedGitHubBaseUrl
+        - statusCode
+        - data
     - keyTitle: Key
 style:
   ordered: []
@@ -141,4 +147,3 @@ position2:
     height: 11
     width: 4
 createdAt: '2019-02-10T21:50:41.627Z'
-updatedAt: 2021-01-27T18:13:30.143Z

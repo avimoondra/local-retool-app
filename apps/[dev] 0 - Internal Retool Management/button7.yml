@@ -12,10 +12,20 @@ template:
     - url: ''
     - newWindow: false
     - value: Restart Trial
+    - style:
+        ordered: []
     - exportQuery: ''
     - action: restartTrial
     - internalUrlQuery: ''
     - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: restartTrial
+            - waitType: debounce
+            - waitMs: '0'
     - exportFileName: ''
     - loading: ''
     - disabled: ''
@@ -29,4 +39,3 @@ position2:
     height: 1
     width: 6
 createdAt: '2019-02-21T20:01:48.939Z'
-updatedAt: '2019-09-24T16:52:37.487Z'

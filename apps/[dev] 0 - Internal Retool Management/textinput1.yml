@@ -17,6 +17,8 @@ template:
     - validationMessage: ''
     - tooltipText: ''
     - value: ''
+    - style:
+        ordered: []
     - suffix: ''
     - validationMinlengthValue: ''
     - validationLengthValue: ''
@@ -47,4 +49,3 @@ position2:
     height: 2
     width: 5
 createdAt: '2019-02-08T11:52:26.156Z'
-updatedAt: '2019-09-24T16:52:37.481Z'

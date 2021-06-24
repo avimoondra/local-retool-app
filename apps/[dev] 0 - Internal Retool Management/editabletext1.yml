@@ -7,10 +7,22 @@ template:
     - onChange: renameOrganization
     - tooltipText: ''
     - value: '{{ getOrganization.data.name[0]}}'
+    - style:
+        ordered: []
     - placeholder: Search here...
     - label: Update Organization Name
     - labelMaxWidth: ''
     - labelPlacedOnLeft: ''
+    - events:
+        - ordered:
+            - event: change
+            - type: datasource
+            - method: trigger
+            - pluginId: renameOrganization
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
     - disabled: ''
 style:
   ordered: []
@@ -21,4 +33,3 @@ position2:
     height: 2
     width: 12
 createdAt: '2019-02-10T18:02:15.485Z'
-updatedAt: '2019-09-24T16:52:37.485Z'

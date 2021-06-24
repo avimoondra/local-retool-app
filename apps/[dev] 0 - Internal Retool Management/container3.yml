@@ -3,13 +3,16 @@ type: widget
 subtype: ContainerWidget
 template:
   ordered:
-    - title: ''
-    - disabled: ''
+    - heightType: fixed
     - spinWhenChildrenAreFetching: true
     - showBorder: true
     - showDropShadow: true
+    - style:
+        ordered: []
     - backgroundColor: white
-    - scroll: false
+    - title: ''
+    - overflowType: visible
+    - disabled: ''
 style:
   ordered: []
 position2:
@@ -18,4 +21,3 @@ position2:
     height: 15
     width: 4
 createdAt: '2019-02-08T13:16:34.262Z'
-updatedAt: '2019-09-24T16:52:37.483Z'

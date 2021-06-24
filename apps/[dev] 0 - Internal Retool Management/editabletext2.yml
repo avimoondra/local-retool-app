@@ -7,10 +7,22 @@ template:
     - onChange: editabletext2onChangeTrigger
     - tooltipText: ''
     - value: '{{ table2.selectedRow.data.email}}'
+    - style:
+        ordered: []
     - placeholder: Search here...
     - label: ''
     - labelMaxWidth: ''
     - labelPlacedOnLeft: ''
+    - events:
+        - ordered:
+            - event: change
+            - type: datasource
+            - method: trigger
+            - pluginId: editabletext2onChangeTrigger
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
     - disabled: ''
 style:
   ordered: []
@@ -22,4 +34,3 @@ position2:
     height: 1
     width: 5
 createdAt: '2019-03-14T18:32:07.501Z'
-updatedAt: '2019-09-24T16:52:37.488Z'

@@ -13,7 +13,7 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: true
     - showFailureToaster: true
-    - query: 'select * from page_saves where id = {{ table6.selectedRow.data.id}}'
+    - query: select * from page_saves where id = {{ table6.selectedRow.data.id}}
     - playgroundQueryUuid: ''
     - playgroundQueryId: 0
     - privateParams: []
@@ -45,10 +45,12 @@ template:
     - queryTriggerDelay: '0'
     - watchedParams: []
     - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
     - importedQueryInputDefaults:
         ordered: []
     - runWhenPageLoads: false
@@ -63,9 +65,10 @@ template:
     - requireConfirmation: false
     - queryFailureConditions: ''
     - enableCaching: false
+    - allowedGroups: []
     - databaseUsernameOverride: ''
     - shouldEnableBatchQuerying: false
     - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
     - notificationDuration: ''
 createdAt: '2019-08-02T18:12:23.967Z'
-updatedAt: '2019-11-27T23:47:05.104Z'

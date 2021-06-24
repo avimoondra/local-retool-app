@@ -29,12 +29,15 @@ template:
           - gitSha: ''
           - id: ''
           - createdAt: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
     - columnRestrictedEditing:
         ordered: []
     - showFilterButton: true
+    - showAddRowButton: false
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
@@ -70,8 +73,11 @@ template:
     - customButtonName: ''
     - columnMappersRenderAsHTML:
         ordered: []
+    - showRefreshButton: true
     - pageSize: 5
     - useDynamicColumnSettings: false
+    - style:
+        ordered: []
     - selectedColumn: null
     - actionButtonPosition: left
     - bulkUpdateAction: ''
@@ -148,4 +154,3 @@ mobilePosition2:
     height: 8
     width: 8
 createdAt: '2019-08-02T18:11:18.967Z'
-updatedAt: 2021-01-27T15:38:26.113Z

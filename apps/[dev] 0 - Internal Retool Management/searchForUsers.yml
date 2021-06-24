@@ -71,10 +71,12 @@ template:
     - queryTriggerDelay: '0'
     - watchedParams: []
     - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
     - importedQueryInputDefaults:
         ordered: []
     - runWhenPageLoads: false
@@ -89,9 +91,10 @@ template:
     - requireConfirmation: false
     - queryFailureConditions: ''
     - enableCaching: false
+    - allowedGroups: []
     - databaseUsernameOverride: ''
     - shouldEnableBatchQuerying: false
     - queryThrottleTime: '1000'
+    - updateSetValueDynamically: false
     - notificationDuration: ''
 createdAt: '2019-02-08T11:51:25.951Z'
-updatedAt: '2019-11-27T23:44:39.581Z'

@@ -40,6 +40,8 @@ template:
 
         <p> {{ moment(getIntercomData.data.last_request_at *
         1000).format('lll')}}
+    - style:
+        ordered: []
     - renderAsHtml: true
     - backgroundColor: '#0000'
     - textColor: '#312929'
@@ -53,4 +55,3 @@ position2:
     height: 5
     width: 8
 createdAt: '2019-02-08T13:52:33.129Z'
-updatedAt: '2019-09-24T16:52:37.483Z'

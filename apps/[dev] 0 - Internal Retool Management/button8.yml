@@ -11,11 +11,21 @@ template:
     - exportTemplate: null
     - url: ''
     - newWindow: false
-    - value: 'Reset {{ table2.selectedRow.data.email}} 2FA'
+    - value: Reset {{ table2.selectedRow.data.email}} 2FA
+    - style:
+        ordered: []
     - exportQuery: ''
     - action: reset2FA
     - internalUrlQuery: ''
     - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: reset2FA
+            - waitType: debounce
+            - waitMs: '0'
     - exportFileName: ''
     - loading: ''
     - disabled: ''
@@ -28,4 +38,3 @@ position2:
     height: 1
     width: 7
 createdAt: '2019-03-11T18:55:10.550Z'
-updatedAt: '2019-09-24T16:52:37.488Z'

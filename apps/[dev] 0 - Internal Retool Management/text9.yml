@@ -37,6 +37,8 @@ template:
         <a
         href=https://app.fullstory.com/ui/4ZFX6/segments/everyone/people:search:((NOW%2FDAY-29DAY:NOW%2FDAY%2B1DAY):((UserEmail:%5E$:%22{{encodeURIComponent(table1.selectedRow.data.email)}}%22)):():():():)/0"
         target="_blank"> Open in Fullstory </a>
+    - style:
+        ordered: []
     - renderAsHtml: true
     - backgroundColor: '#0000'
     - textColor: '#312929'
@@ -51,4 +53,3 @@ position2:
     height: 5
     width: 4
 createdAt: '2019-02-09T00:05:35.701Z'
-updatedAt: '2019-09-24T16:52:37.485Z'

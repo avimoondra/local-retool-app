@@ -12,10 +12,27 @@ template:
     - url: ''
     - newWindow: false
     - value: Download app
+    - style:
+        ordered: []
     - exportQuery: '{ page: {{ formatDataAsArray(query22.data)[0] }} }'
     - action: ''
     - internalUrlQuery: ''
     - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: exportData
+            - type: util
+            - pluginId: ''
+            - waitType: debounce
+            - waitMs: '0'
+            - params:
+                ordered:
+                  - data: '{ page: {{ formatDataAsArray(query22.data)[0] }} }'
+                  - fileName: ''
+                  - fileType: json
+                  - options:
+                      ordered: []
     - exportFileName: ''
     - loading: ''
     - disabled: ''
@@ -35,4 +52,3 @@ mobilePosition2:
     height: 1
     width: 2
 createdAt: '2019-08-02T18:08:15.115Z'
-updatedAt: '2019-09-24T16:52:37.488Z'
