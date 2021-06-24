@@ -54,6 +54,8 @@ template:
           - email: ''
           - lastLoggedIn: ''
           - twoFactorAuthEnabled: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered:
@@ -64,6 +66,7 @@ template:
     - actionButtonUrl: ''
     - actionButton: false
     - actionButtonNewWindow: false
+    - showAddRowButton: false
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
@@ -111,8 +114,11 @@ template:
     - columnMappersRenderAsHTML:
         ordered: []
     - actionButtonInternalUrlPath: ''
+    - showRefreshButton: true
     - pageSize: 9
     - useDynamicColumnSettings: false
+    - style:
+        ordered: []
     - selectedColumn: null
     - actionButtonPosition: right
     - bulkUpdateAction: ''
@@ -195,4 +201,3 @@ position2:
     height: 8
     width: 12
 createdAt: '2019-02-08T11:51:47.942Z'
-updatedAt: 2021-01-27T15:38:26.042Z

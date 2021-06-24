@@ -12,10 +12,20 @@ template:
     - url: ''
     - newWindow: false
     - value: Refresh
+    - style:
+        ordered: []
     - exportQuery: ''
     - action: searchForUsers
     - internalUrlQuery: ''
     - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: searchForUsers
+            - waitType: debounce
+            - waitMs: '0'
     - exportFileName: ''
     - loading: ''
     - disabled: ''
@@ -29,4 +39,3 @@ position2:
     height: 1
     width: 4
 createdAt: '2019-02-09T00:27:18.037Z'
-updatedAt: '2019-09-24T16:52:37.485Z'

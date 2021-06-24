@@ -52,10 +52,12 @@ template:
     - watchedParams: []
     - enableErrorTransformer: false
     - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
     - importedQueryInputDefaults:
         ordered: []
     - bulkUpdatePrimaryKey: ''
@@ -72,9 +74,10 @@ template:
     - requireConfirmation: true
     - queryFailureConditions: ''
     - enableCaching: false
+    - allowedGroups: []
     - databaseUsernameOverride: ''
     - doNotThrowOnNoOp: false
     - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
     - notificationDuration: ''
 createdAt: '2019-02-10T18:23:19.270Z'
-updatedAt: '2019-11-27T23:45:59.863Z'

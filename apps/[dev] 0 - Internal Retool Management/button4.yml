@@ -12,10 +12,20 @@ template:
     - url: ''
     - newWindow: false
     - value: Make Admin
+    - style:
+        ordered: []
     - exportQuery: ''
     - action: promoteUser
     - internalUrlQuery: ''
     - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: promoteUser
+            - waitType: debounce
+            - waitMs: '0'
     - exportFileName: ''
     - loading: ''
     - disabled: ''
@@ -28,4 +38,3 @@ position2:
     height: 1
     width: 8
 createdAt: '2019-02-10T18:16:17.975Z'
-updatedAt: '2019-09-24T16:52:37.485Z'

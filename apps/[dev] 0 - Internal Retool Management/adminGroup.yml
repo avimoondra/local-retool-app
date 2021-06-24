@@ -46,10 +46,12 @@ template:
     - queryTriggerDelay: '0'
     - watchedParams: []
     - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
     - importedQueryInputDefaults:
         ordered: []
     - runWhenPageLoads: false
@@ -64,9 +66,10 @@ template:
     - requireConfirmation: false
     - queryFailureConditions: ''
     - enableCaching: false
+    - allowedGroups: []
     - databaseUsernameOverride: ''
     - shouldEnableBatchQuerying: false
     - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
     - notificationDuration: ''
 createdAt: '2019-02-10T18:21:35.329Z'
-updatedAt: '2019-11-27T23:45:55.023Z'

@@ -11,6 +11,8 @@ template:
     - value: |+
         ##### Salesforce Profile
 
+    - style:
+        ordered: []
     - renderAsHtml: true
     - backgroundColor: '#0000'
     - textColor: '#312929'
@@ -24,4 +26,3 @@ position2:
     height: 1
     width: 12
 createdAt: '2019-02-09T00:01:56.487Z'
-updatedAt: '2019-09-24T16:52:37.484Z'

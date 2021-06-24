@@ -1,11 +1,15 @@
 version: 43.0.9
 pageUuid: c37676ba-116f-11ea-b17d-d7734e1526f2
 appTemplate:
+  tests:
+    array: []
   urlFragmentDefinitions:
     - ordered:
         - name: search
         - value: '{{ textinput1.value}}'
+  appStyles: ''
   appThemeId: null
+  preloadedAppJavaScript: null
   pageLoadValueOverrides:
     - ordered:
         - name: textinput1.value
@@ -13,9 +17,15 @@ appTemplate:
   customDocumentTitle: ''
   isGlobalWidget: false
   isFetching: false
+  testEntities:
+    array: []
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
-  version: 2.64.82
+  preloadedAppJSLinks:
+    array: []
+  version: 2.71.10
   responsiveLayoutDisabled: false
   createdAt: null
+  customShortcuts:
+    array: []
   loadingIndicatorsDisabled: false

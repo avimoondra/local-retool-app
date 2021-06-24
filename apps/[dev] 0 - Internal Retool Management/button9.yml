@@ -14,10 +14,21 @@ template:
     - value: >-
         {{ table2.selectedRow.data.enabled ? 'Deactivate User' : 'Activate User'
         }}
+    - style:
+        ordered:
+          - accent-background: '{{ table2.selectedRow.data.enabled ? ''#eb144c'' : ''green'' }}'
     - exportQuery: ''
     - action: toggleUserEnabled
     - internalUrlQuery: ''
     - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: toggleUserEnabled
+            - waitType: debounce
+            - waitMs: '0'
     - exportFileName: ''
     - loading: ''
     - disabled: ''
@@ -32,4 +43,3 @@ position2:
     height: 1
     width: 5
 createdAt: '2019-03-14T08:06:57.351Z'
-updatedAt: '2019-09-24T16:52:37.488Z'
