@@ -20,6 +20,7 @@ template:
           - b: true
           - veriifed: true
           - billingCardholderName: true
+          - inCanaryGroup: true
           - twoFactorAuthRequired: true
           - protectedGitHubRepo: true
           - c: true
@@ -33,6 +34,7 @@ template:
           - isAdmin: true
           - stripeSubscriptionId: true
           - protectedGitBranch: true
+          - protectedAppsSyncEnabled: true
           - stripeCustomerId: true
           - profilePhotoUrl: true
           - message: true
@@ -52,6 +54,7 @@ template:
           - organizationId: true
           - updatedAt: true
           - platformLevelAuthSteps: true
+          - onpremStripeSubscriptionId: true
           - applyPreloadedCSSToHomepage: true
           - protectedGitHubOrg: true
           - hostname: true
@@ -61,6 +64,7 @@ template:
           - preloadedJavaScript: true
           - trialExpiryDate: true
           - isCompanyAccount: true
+          - onpremStripePlanId: true
           - preloadedCSS: true
           - onboardingStagesCompleted: true
           - id: true
@@ -72,6 +76,7 @@ template:
           - billingCardBrand: true
           - email: true
           - gitUrl: true
+          - protectedGitHubEnterpriseUrl: true
           - statusCode: true
     - style:
         ordered: []
@@ -138,6 +143,11 @@ template:
         - protectedGitHubBaseUrl
         - statusCode
         - data
+        - protectedGitHubEnterpriseUrl
+        - onpremStripeSubscriptionId
+        - onpremStripePlanId
+        - inCanaryGroup
+        - protectedAppsSyncEnabled
     - keyTitle: Key
 style:
   ordered: []
