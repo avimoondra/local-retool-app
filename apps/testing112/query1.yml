@@ -2,7 +2,6 @@ id: query1
 type: datasource
 subtype: SqlQueryUnified
 resourceName: 300d15a4-df38-4d83-9887-b2fdc061ec0c
-resourceDisplayName: local
 template:
   ordered:
     - queryRefreshTime: ''
