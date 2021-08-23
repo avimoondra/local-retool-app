@@ -142,6 +142,7 @@ template:
         ordered:
           - array: []
     - newRow: null
+    - emptyMessage: No rows found
     - columnEditable:
         ordered: []
     - filters:
@@ -154,6 +155,7 @@ template:
         ordered:
           - Calculated Column 1: '{{currentRow.enabled}}'
     - showClearSelection: false
+    - overflowType: pagination
     - selectedCell:
         object:
           index: null
