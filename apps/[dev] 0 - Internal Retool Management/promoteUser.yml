@@ -2,7 +2,6 @@ id: promoteUser
 type: datasource
 subtype: RetoolTableQuery
 resourceName: '[dev] internal_retool (write)'
-resourceDisplayName: '[dev] internal_retool (write)'
 template:
   ordered:
     - queryRefreshTime: ''
@@ -70,6 +69,16 @@ template:
         20)
 
         return data
+    - events:
+        - ordered:
+            - event: success
+            - type: datasource
+            - method: trigger
+            - pluginId: getOrgUsers
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
     - tableName: user_groups
     - queryTimeout: '10000'
     - requireConfirmation: true

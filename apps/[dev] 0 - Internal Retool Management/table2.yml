@@ -136,6 +136,7 @@ template:
         ordered:
           - array: []
     - newRow: null
+    - emptyMessage: No rows found
     - columnEditable:
         ordered: []
     - filters:
@@ -147,6 +148,7 @@ template:
     - columnMappers:
         ordered: []
     - showClearSelection: false
+    - overflowType: pagination
     - selectedCell:
         object:
           index: null

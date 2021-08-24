@@ -2,7 +2,6 @@ id: adminGroup
 type: datasource
 subtype: SqlQuery
 resourceName: '[dev] internal_retool (readonly)'
-resourceDisplayName: '[dev] internal_retool (readonly)'
 template:
   ordered:
     - queryRefreshTime: ''
@@ -63,6 +62,7 @@ template:
         20)
 
         return data
+    - events: []
     - queryTimeout: '10000'
     - requireConfirmation: false
     - queryFailureConditions: ''

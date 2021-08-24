@@ -1,31 +1,12 @@
 version: 43.0.9
 pageUuid: c37676ba-116f-11ea-b17d-d7734e1526f2
 appTemplate:
-  tests:
-    array: []
   urlFragmentDefinitions:
     - ordered:
         - name: search
         - value: '{{ textinput1.value}}'
-  appStyles: ''
-  appThemeId: null
-  preloadedAppJavaScript: null
   pageLoadValueOverrides:
     - ordered:
         - name: textinput1.value
         - value: '{{ urlparams.hash.search}}'
-  customDocumentTitle: ''
-  isGlobalWidget: false
-  isFetching: false
-  testEntities:
-    array: []
-  instrumentationEnabled: false
-  customDocumentTitleEnabled: false
-  preloadedAppJSLinks:
-    array: []
-  version: 2.72.8
-  responsiveLayoutDisabled: false
-  createdAt: null
-  customShortcuts:
-    array: []
-  loadingIndicatorsDisabled: false
+  version: 2.75.2
