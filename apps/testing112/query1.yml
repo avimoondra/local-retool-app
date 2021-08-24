@@ -66,6 +66,7 @@ template:
         20)
 
         return data
+    - events: []
     - tableName: ''
     - queryTimeout: '10001'
     - requireConfirmation: false
