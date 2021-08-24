@@ -67,6 +67,7 @@ template:
         20)
 
         return data
+    - events: []
     - queryTimeout: '10000'
     - requireConfirmation: false
     - queryFailureConditions: ''
