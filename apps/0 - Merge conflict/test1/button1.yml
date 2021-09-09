@@ -9,7 +9,7 @@ template:
     - iconAfter: ''
     - iconBefore: ''
     - loading: false
-    - text: Button
+    - text: Button Foo
     - tooltipText: ''
     - styleVariant: solid
 style:
