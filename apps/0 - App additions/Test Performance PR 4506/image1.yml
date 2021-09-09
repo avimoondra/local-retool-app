@@ -1,0 +1,27 @@
+id: image1
+type: widget
+subtype: ImageWidget2
+resourceName: null
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: center
+    - srcWidth: null
+    - src: https://place-puppy.com/400x300
+    - hidden: false
+    - srcHeight: null
+    - fit: cover
+    - aspectRatio: null
+    - storageBlobId: ''
+    - altText: ''
+    - dbBlobId: ''
+    - srcType: src
+style:
+  ordered: []
+position2:
+  position2:
+    row: 1.6
+    col: 1
+    height: 3
+    width: 3
+createdAt: 2021-09-09T05:17:13.753Z
