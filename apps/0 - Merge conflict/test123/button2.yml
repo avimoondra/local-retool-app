@@ -1,4 +1,4 @@
-id: button1
+id: button2
 type: widget
 subtype: ButtonWidget2
 resourceName: null
@@ -16,8 +16,8 @@ style:
   ordered: []
 position2:
   position2:
-    row: 2.8
-    col: 10
+    row: 1.8
+    col: 11
     height: 1
-    width: 2
-createdAt: 2021-09-09T22:11:40.819Z
+    width: 1
+createdAt: 2021-09-09T22:14:55.981Z
