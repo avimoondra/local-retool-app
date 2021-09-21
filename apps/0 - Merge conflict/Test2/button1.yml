@@ -9,13 +9,14 @@ template:
     - iconAfter: ''
     - iconBefore: ''
     - loading: false
-    - text: Button Text
+    - text: Button
     - tooltipText: ''
     - styleVariant: solid
 style:
   ordered: []
 position2:
   position2:
+    col: 1
     height: 1
     width: 3
 createdAt: 2021-09-21T21:06:53.502Z
