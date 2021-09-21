@@ -19,7 +19,7 @@ template:
     - tooltipText: ''
     - currency: USD
     - labelAlign: left
-    - value: '10'
+    - value: '40'
     - min: null
     - labelWidth: '33'
     - placeholder: Enter value
