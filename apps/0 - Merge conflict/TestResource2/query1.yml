@@ -2,7 +2,7 @@ id: query1
 type: datasource
 subtype: SqlQuery
 resourceName: '[dev] internal_retool (readonly)'
-resourceDisplayName: '[dev] internal_retool (readonly)'
+resourceDisplayName: '[dev] internal_retool (readonly2)'
 template:
   ordered:
     - queryRefreshTime: ''
