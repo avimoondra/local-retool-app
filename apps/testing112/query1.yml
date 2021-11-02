@@ -6,6 +6,7 @@ template:
   ordered:
     - queryRefreshTime: ''
     - records: ''
+    - lastReceivedFromResourceAt: null
     - databasePasswordOverride: ''
     - queryDisabledMessage: ''
     - successMessage: ''
