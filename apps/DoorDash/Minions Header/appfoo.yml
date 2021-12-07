@@ -1,0 +1,9 @@
+id: appfoo
+type: globalwidgetprop
+subtype: GlobalWidgetProp
+resourceName: null
+template:
+  ordered:
+    - value: ''
+    - defaultValue: ''
+createdAt: 2021-11-30T22:25:37.487Z

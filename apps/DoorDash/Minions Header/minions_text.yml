@@ -9,7 +9,7 @@ template:
     - verticalAlign: center
     - scrollOverflow: false
     - tooltipText: ''
-    - value: '# Minions: {{app.value}}'
+    - value: '# Minions: {{appfoo.value}}'
     - style:
         ordered:
           - primary-text: '#cc5248'
