@@ -1,0 +1,33 @@
+id: minions_text
+type: widget
+subtype: TextWidget
+resourceName: null
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: '# Minions: {{app.value}}'
+    - style:
+        ordered:
+          - primary-text: '#cc5248'
+          - text-background: rgb(255, 255, 255)
+    - renderAsHtml: true
+    - backgroundColor: '#0000'
+    - textColor: '#cc5248'
+    - renderAsMarkdown: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container1
+    height: 1.7999999999999998
+    width: 8
+mobilePosition2:
+  position2:
+    container: matchedSubjects_container
+    height: 1
+    width: 3
+createdAt: 2019-04-20T04:49:50.631Z
