@@ -1,9 +1,6 @@
-id: app
-type: globalwidgetprop
-subtype: GlobalWidgetProp
-resourceName: null
-template:
-  ordered:
-    - value: ''
-    - defaultValue: ''
-createdAt: 2021-11-30T22:25:37.487Z
+version: 43.0.9
+pageUuid: 64b17f9e-522c-11ec-92cf-2f8f37c1a89b
+appTemplate:
+  rootScreen: null
+  isGlobalWidget: true
+  version: 2.82.11
