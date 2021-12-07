@@ -23,6 +23,7 @@ style:
 position2:
   position2:
     container: container1
+    row: 1
     height: 1.7999999999999998
     width: 8
 mobilePosition2:
