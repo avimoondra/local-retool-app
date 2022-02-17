@@ -1,7 +1,7 @@
 id: query1
 type: datasource
 subtype: SqlQuery
-resourceName: '[dev] bigquery'
+resourceName: d57b73b3-57b1-4c6c-93d9-715f0ca2cd35
 resourceDisplayName: '[dev] bigquery'
 template:
   ordered:
@@ -27,8 +27,10 @@ template:
     - showSuccessToaster: true
     - dataArray: []
     - cacheKeyTtl: ''
+    - databaseHostOverride: ''
     - metadata: null
     - triggersOnFailure: null
+    - changesetObject: ''
     - shouldUseLegacySql: false
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
@@ -40,6 +42,7 @@ template:
     - databaseNameOverride: ''
     - confirmationMessage: null
     - isFetching: false
+    - changeset: ''
     - rawData: null
     - queryTriggerDelay: '0'
     - watchedParams: []
@@ -62,6 +65,7 @@ template:
     - queryTimeout: '10001'
     - requireConfirmation: false
     - queryFailureConditions: ''
+    - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
     - databaseUsernameOverride: ''

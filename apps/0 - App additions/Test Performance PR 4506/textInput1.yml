@@ -17,11 +17,14 @@ template:
     - textBefore: ''
     - validationMessage: ''
     - textAfter: ''
+    - showInEditor: false
     - showClear: false
     - pattern: ''
     - tooltipText: ''
     - labelAlign: left
+    - formDataKey: '{{ self.id }}'
     - value: ''
+    - labelCaption: ''
     - labelWidth: '33'
     - autoFill: ''
     - placeholder: Enter value
@@ -32,9 +35,13 @@ template:
     - iconBefore: ''
     - minLength: null
     - inputTooltip: ''
+    - events:
+        ordered: []
     - autoCapitalize: none
     - disabled: false
     - labelPosition: left
+    - labelWrap: false
+    - maintainSpaceWhenHidden: false
     - required: false
 style:
   ordered: []
