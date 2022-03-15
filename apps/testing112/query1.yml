@@ -6,6 +6,7 @@ template:
   ordered:
     - queryRefreshTime: ''
     - records: ''
+    - lastReceivedFromResourceAt: null
     - databasePasswordOverride: ''
     - queryDisabledMessage: ''
     - successMessage: ''
@@ -30,10 +31,12 @@ template:
     - dataArray: []
     - cacheKeyTtl: ''
     - filterBy: ''
+    - databaseHostOverride: ''
     - metadata: null
     - editorMode: sql
     - actionType: ''
     - triggersOnFailure: []
+    - changesetObject: ''
     - shouldUseLegacySql: false
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
@@ -71,6 +74,7 @@ template:
     - queryTimeout: '10001'
     - requireConfirmation: false
     - queryFailureConditions: ''
+    - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
     - databaseUsernameOverride: ''
