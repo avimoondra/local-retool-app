@@ -1,55 +1,55 @@
-id: numberInput1
+id: textInput1
 type: widget
-subtype: NumberInputWidget
+subtype: TextInputWidget2
 resourceName: null
 template:
   ordered:
+    - spellCheck: false
     - readOnly: false
     - iconAfter: ''
-    - max: null
+    - showCharacterCount: false
+    - autoComplete: false
+    - maxLength: null
     - hidden: false
     - customValidation: ''
-    - showSeparators: true
+    - patternType: ''
     - hideValidationMessage: false
     - textBefore: ''
     - validationMessage: ''
     - textAfter: ''
     - showInEditor: false
-    - _defaultValue: null
-    - allowNull: false
+    - _defaultValue: ''
     - showClear: false
+    - pattern: ''
     - tooltipText: ''
-    - currency: USD
     - labelAlign: left
     - formDataKey: '{{ self.id }}'
-    - value: 0
+    - value: ''
     - labelCaption: ''
-    - min: null
     - labelWidth: '33'
+    - autoFill: ''
     - placeholder: Enter value
-    - showStepper: true
     - label: Label
     - _validate: false
     - labelWidthUnit: '%'
     - invalid: false
-    - format: decimal
     - iconBefore: ''
-    - textAlign: left
+    - minLength: null
     - inputTooltip: ''
     - events:
         ordered: []
+    - autoCapitalize: none
     - loading: false
     - disabled: false
     - labelPosition: left
-    - decimalPlaces: null
     - labelWrap: false
-    - padDecimal: false
     - maintainSpaceWhenHidden: false
     - required: false
 style:
   ordered: []
 position2:
   position2:
+    col: 8
     height: 1
     width: 4
-createdAt: 2021-09-03T21:00:47.480Z
+createdAt: 2021-09-09T22:08:18.631Z
