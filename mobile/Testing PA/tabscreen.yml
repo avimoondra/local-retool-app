@@ -1,0 +1,11 @@
+id: tabscreen
+type: screen
+subtype: TabScreen
+template:
+  ordered:
+    - items:
+        - ordered:
+            - screen: screen1
+        - ordered:
+            - screen: screen2
+createdAt: 2022-04-09T22:48:50.839Z
