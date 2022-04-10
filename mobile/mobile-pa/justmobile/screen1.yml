@@ -1,0 +1,9 @@
+id: screen1
+type: screen
+subtype: Screen
+template:
+  ordered:
+    - title: Screen 1
+    - headerLeftActions: []
+    - headerRightActions: []
+createdAt: 2022-04-10T05:42:04.128Z
