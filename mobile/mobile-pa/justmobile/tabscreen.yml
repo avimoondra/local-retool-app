@@ -1,0 +1,11 @@
+id: tabscreen
+type: screen
+subtype: TabScreen
+template:
+  map:
+    items:
+      - ordered:
+          - screen: screen1
+      - ordered:
+          - screen: screen2
+createdAt: 2022-04-10T05:42:04.128Z

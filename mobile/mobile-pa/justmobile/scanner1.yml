@@ -1,0 +1,22 @@
+id: scanner1
+type: widget
+subtype: RNScannerWidget
+resourceName: null
+template:
+  ordered:
+    - events:
+        ordered: []
+    - visible: false
+    - data: []
+    - buttonText: Scanner
+    - buttonSize: large
+    - autoClose: true
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 3
+createdAt: 2022-04-10T14:31:24.875Z
+screen: asdfScreen
