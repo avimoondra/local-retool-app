@@ -1,0 +1,19 @@
+id: button2
+type: widget
+subtype: RNButtonWidget
+resourceName: null
+template:
+  ordered:
+    - events:
+        ordered: []
+    - text: Button
+    - size: large
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 1
+createdAt: 2022-04-10T04:46:15.026Z
+screen: screen1
