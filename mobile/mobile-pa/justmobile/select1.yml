@@ -1,7 +1,6 @@
 id: select1
 type: widget
 subtype: RNSelectWidget
-resourceName: null
 template:
   ordered:
     - events:
@@ -14,7 +13,8 @@ template:
 style:
   ordered: []
 position2:
-  position2: {}
+  position2:
+    row: -.inf
 mobileAppPosition:
   mobilePosition:
     ordinal: 4

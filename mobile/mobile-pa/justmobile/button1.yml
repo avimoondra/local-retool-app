@@ -1,7 +1,6 @@
 id: button1
 type: widget
 subtype: RNButtonWidget
-resourceName: null
 template:
   ordered:
     - events:
@@ -11,7 +10,8 @@ template:
 style:
   ordered: []
 position2:
-  position2: {}
+  position2:
+    row: -.inf
 mobileAppPosition:
   mobilePosition: {}
 createdAt: 2022-04-10T05:42:08.631Z
