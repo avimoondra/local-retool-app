@@ -1,0 +1,18 @@
+id: fab1
+type: widget
+subtype: RNFabWidget
+template:
+  ordered:
+    - events:
+        ordered: []
+    - icon: bold/interface-add-1
+    - text: ''
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 5
+createdAt: 2022-04-16T02:43:12.830Z
+screen: screen1
