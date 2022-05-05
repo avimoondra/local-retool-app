@@ -6,6 +6,6 @@ appTemplate:
       batchCommitModelEnabled: false
   rootScreen: tabscreen
   isMobileApp: true
-  version: 2.89.9
+  version: 2.90.6
   multiScreenMobileApp: true
   markdownLinkBehavior: auto
