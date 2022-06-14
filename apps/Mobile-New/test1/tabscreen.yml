@@ -2,10 +2,10 @@ id: tabscreen
 type: screen
 subtype: TabScreen
 template:
-  map:
-    items:
-      - map:
-          screen: screen1
-      - map:
-          screen: screen2
+  ordered:
+    - items:
+        - ordered:
+            - screen: screen1
+        - ordered:
+            - screen: screen2
 createdAt: 2022-06-14T03:37:36.152Z
