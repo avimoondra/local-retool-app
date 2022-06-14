@@ -1,0 +1,24 @@
+id: numberInput1
+type: widget
+subtype: RNNumberInputWidget
+template:
+  ordered:
+    - iconAfter: ''
+    - maxLength: null
+    - value: 0
+    - placeholder: 0
+    - label: Label
+    - iconBefore: ''
+    - minLength: null
+    - events:
+        ordered: []
+    - disabled: false
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 3
+createdAt: 2022-06-14T04:19:58.302Z
+screen: screen1
