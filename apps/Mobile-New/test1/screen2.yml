@@ -1,0 +1,7 @@
+id: screen2
+type: screen
+subtype: Screen
+template:
+  map:
+    title: Screen 2
+createdAt: 2022-06-14T03:37:36.152Z
