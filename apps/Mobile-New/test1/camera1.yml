@@ -1,0 +1,49 @@
+id: camera1
+type: widget
+subtype: RNCameraWidget
+template:
+  ordered:
+    - parsedValue:
+        array: []
+    - parseFiles: false
+    - maxSize: ''
+    - appendNewSelection: false
+    - width: full
+    - selectionType: single
+    - accept:
+        array: []
+    - opened: false
+    - hidden: false
+    - customValidation: ''
+    - maxCount: null
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - showInEditor: false
+    - parsing: false
+    - tooltipText: ''
+    - formDataKey: '{{ self.id }}'
+    - value:
+        array: []
+    - minSize: ''
+    - buttonSize: large
+    - _validate: false
+    - invalid: false
+    - files:
+        array: []
+    - events:
+        ordered: []
+    - disabled: false
+    - minCount: null
+    - quality: 1
+    - maintainSpaceWhenHidden: false
+    - buttonText: Camera
+    - required: false
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 5
+createdAt: 2022-06-14T04:20:31.067Z
+screen: screen1
