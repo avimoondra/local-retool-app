@@ -1,0 +1,11 @@
+id: tabscreen
+type: screen
+subtype: TabScreen
+template:
+  map:
+    items:
+      - screen: screen1
+        icon: bold/interface-text-formatting-list-bullets
+      - screen: screen2
+        icon: bold/interface-user-single
+createdAt: 2022-07-25T20:51:54.902Z
