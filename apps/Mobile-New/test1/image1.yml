@@ -5,6 +5,8 @@ template:
   ordered:
     - src: https://picsum.photos/seed/picsum/500/300
     - ratio: 1.3333333333333333
+    - mode: cover
+    - cornerType: round
 style:
   ordered: []
 position2:
