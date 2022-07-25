@@ -7,6 +7,10 @@ template:
         ordered: []
     - text: Button
     - size: large
+    - iconAfter: ''
+    - iconBefore: ''
+    - disabled: false
+    - loading: false
     - width: full
 style:
   ordered: []

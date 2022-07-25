@@ -1,0 +1,19 @@
+id: text1
+type: widget
+subtype: RNTextWidget
+template:
+  ordered:
+    - value: 👋 Hello {{ current_user.firstName || 'friend' }}!
+    - size: medium
+    - weight: normal
+    - width: full
+    - textAlign: left
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 4
+createdAt: 2022-07-25T17:32:59.083Z
+screen: screen1

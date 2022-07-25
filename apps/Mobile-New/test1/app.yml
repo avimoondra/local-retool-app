@@ -3,6 +3,6 @@ pageUuid: 551c9c66-eb93-11ec-bb64-f72992407a68
 appTemplate:
   rootScreen: tabscreen
   isMobileApp: true
-  version: 2.94.1
+  version: 2.96.1
   multiScreenMobileApp: true
   markdownLinkBehavior: auto

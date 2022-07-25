@@ -1,0 +1,29 @@
+id: datePicker1
+type: widget
+subtype: RNDatePickerWidget
+template:
+  ordered:
+    - mode: date
+    - customValidation: ''
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - formDataKey: '{{ self.id }}'
+    - value: '{{ new Date() }}'
+    - labelCaption: ''
+    - placeholder: ''
+    - label: Date
+    - _validate: false
+    - invalid: false
+    - events:
+        ordered: []
+    - disabled: false
+    - required: false
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 6
+createdAt: 2022-07-25T20:50:02.658Z
+screen: screen1
